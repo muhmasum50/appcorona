@@ -46,7 +46,7 @@ body {
     color: #6279e2;
 }
 
-.nav .links .mainlink {
+.nav .links .router-link-exact-active {
     color: #31428d;
 }
 
@@ -267,6 +267,16 @@ li span {
 }
 
 
+/* KONTEN */
+
+.konten {
+    /* display: flex; */
+    margin-top: 100px;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+
 /* Banner */
 
 .banner {
@@ -314,7 +324,7 @@ li span {
     color: #000;
 }
 
-.footerlinks .mainlink {
+.footerlinks .router-link-exact-active {
     color: #31428d;
 }
 
