@@ -3,7 +3,7 @@
     <Navbar/>
     <Landing/>
     <Konten/>
-    <Information/>
+    <Info/>
     <Banner/>
   </div>
 </template>
@@ -13,7 +13,7 @@
 import Navbar from '@/components/Navbar.vue'
 import Landing from '@/components/Landing.vue'
 import Konten from '@/components/Konten.vue'
-import Information from '@/components/Information.vue'
+import Info from '@/components/Info.vue'
 import Banner from '@/components/Banner.vue'
 
 export default {
@@ -22,7 +22,7 @@ export default {
     Navbar,
     Landing,
     Konten,
-    Information,
+    Info,
     Banner
   }
 }

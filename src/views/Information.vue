@@ -5,15 +5,17 @@
       :sembuh="sembuh" :meninggal="meninggal" 
       :loading="loading" :tanggal="tanggal" />
 
+    <Info/>
     <InformasiKonten/>
   </div>
 </template>
 
 <script>
   // @ is an alias to /src
-  import Navbar from "@/components/Navbar.vue";
-  import Box from "@/components/informations/Box.vue";
-  import InformasiKonten from "@/components/informations/InformasiKonten.vue";
+  import Navbar from "@/components/Navbar.vue"
+  import Box from "@/components/informations/Box.vue"
+  import InformasiKonten from "@/components/informations/InformasiKonten.vue"
+  import Info from '@/components/Info.vue'
   import axios from "axios";
 
   export default {
@@ -22,6 +24,7 @@
       Navbar,
       Box,
       InformasiKonten,
+      Info,
     },
     data: function () {
       return {

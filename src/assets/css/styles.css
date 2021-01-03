@@ -352,6 +352,11 @@ li span {
         font-size: 12px;
         font-weight: 600;
     }
+    /* Konten */
+    .konten {
+        height: 750px;
+        margin-bottom: 100px;
+    }
     /* LANDING PAGE */
     .landing {
         flex-direction: column-reverse;
@@ -371,7 +376,7 @@ li span {
         margin: 0 auto;
     }
     .landingText #tombol a {
-        font-size: 3vw;
+        font-size: 3.5 vh;
     }
     .landingImage img {
         width: 52vw;
@@ -497,9 +502,10 @@ li span {
         margin: 0 auto;
     }
     .landingText #tombol a {
-        font-size: 2vw;
+        font-size: 3.5vw;
     }
     .landingImage img {
+        margin-top: -100px;
         width: 52vw;
         margin-bottom: 20px;
     }
