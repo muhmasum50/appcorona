@@ -8,6 +8,7 @@ import './assets/css/box.css'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
+
 Vue.config.productionTip = false
 
 new Vue({
